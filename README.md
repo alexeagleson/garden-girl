@@ -1,4 +1,6 @@
-Garden Girl is a 2-5 player multiplayer "Bomberman Clone" written as a replacement project for the cancelled PTBO Game Jam 05. Completed in 7 days from Saturday March 14th to Saturday March 21st.
+Garden Girl is a 2-5 player multiplayer "Bomberman Clone" written as a replacement project for the cancelled PTBO Game Jam 05.
+
+Completed in 7 days from Saturday March 14th to Saturday March 21st.
 
 To play the game:
 
