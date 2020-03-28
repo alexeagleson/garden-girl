@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false
+  },
+  "exclude": ["node_modules", "deprecated_components"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "plugins": [
+    {
+      "name": "typescript-tslint-plugin",
+      "alwaysShowRuleFailuresAsWarnings": true,
+      "ignoreDefinitionFiles": true,
+      "configFile": "./tslint.json"
+    },
+    {
+      "name": "typescript-styled-plugin",
+      "validate": true,
+      "tags": ["styled", "css", "sty"],
+      "lint": {
+        "unknownProperties": "warning",
+        "compatibleVendorPrefixes": "warning",
+        "vendorPrefix": "warning",
+        "duplicateProperties": "warning",
+        "emptyRules": "warning",
+        "importStatement": "warning",
+        "boxModel": "warning",
+        "universalSelector": "warning",
+        "zeroUnits": "warning",
+        "fontFaceProperties": "warning",
+        "hexColorLength": "warning",
+        "argumentsInColorFunction": "warning",
+        "ieHack": "warning",
+        "unknownVendorSpecificProperties": "warning",
+        "propertyIgnoredDueToDisplay": "warning",
+        "important": "warning",
+        "float": "warning",
+        "idSelector": "warning"
+      }
+    }
+  ]
+}

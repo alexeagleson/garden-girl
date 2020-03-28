@@ -1,0 +1,28 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "curly": [true, "ignore-same-line"],
+    "interface-name": [false, "never-prefix"],
+    "max-line-length": {
+      "options": [150]
+    },
+    "new-parens": true,
+    "quotemark": [true, "single", "jsx-double"],
+    "max-classes-per-file": [true, 2],
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-inferrable-types": [false],
+    "no-conditional-assignment": true,
+    "no-consecutive-blank-lines": true,
+    "no-console": {
+      "severity": "warning",
+      "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+    },
+    "no-shadowed-variable": false,
+    "no-string-throw": false,
+    "no-var-requires": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "variable-name": [true, "ban-keywords", "allow-leading-underscore"]
+  }
+}
